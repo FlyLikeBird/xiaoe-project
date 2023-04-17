@@ -1,0 +1,26 @@
+.container {
+    height:60px;
+    background-image:linear-gradient(to right, #2d71dd, #3e8efd);
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 10px;
+    color:#fff;
+}
+
+.container .title {
+    font-size:1.6rem;
+}
+
+.container > div > span {
+    display:inline-block;
+}
+
+.avatar {
+    display:inline-block;
+    width:24px;
+    height:24px;
+    border-radius:50%;
+    margin:0 6px;
+    cursor: pointer;
+}
